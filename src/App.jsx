@@ -6,6 +6,7 @@ import Tech from './Components/About/Tech'
 import { createBrowserRouter,Outlet, RouterProvider } from 'react-router-dom'
 import About from './Components/Tech/About'
 import Projects from './Components/Projects/Projects'
+import Contact from './Components/Contacts/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,8 @@ function App() {
         {path:'/',element:<Home/>},
         {path:'/tech',element:<Tech/>},
         {path:'/about',element:<About/>},
-        {path:'/projects',element:<Projects/>}
+        {path:'/projects',element:<Projects/>},
+        {path:'/contacts',element:<Contact/>}
       ]
     },
   ])
