@@ -1,0 +1,67 @@
+/* About page styling */
+.about-container {
+    background-color: #121212; /* Dark background */
+    color: white;
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .highlight-text {
+    color: #00bcd4; /* Bright accent color */
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .highlight-text:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  .contact-btn {
+    background-color: #00bcd4;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0097a7;
+    transform: scale(1.05); /* Miniature scaling animation */
+  }
+  
+  /* Animation for heading */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
