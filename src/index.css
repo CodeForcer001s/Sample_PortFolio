@@ -8,9 +8,11 @@
   }
   :root {
     --bg-color: #080808;
+    /* --bg-color: white; */
     --second-bg-color: #101010;
     --text-color: white;
     --main-color: #ea580c;
+    --card-color: rgb(23, 23, 23);
   }
   html {
     font-size: 60%;

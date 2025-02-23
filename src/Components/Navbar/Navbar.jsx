@@ -1,5 +1,5 @@
 import React from 'react'
-import "./navbar.css"
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
@@ -12,11 +12,11 @@ const Navbar = () => {
             <i className="bx bx-menu" id="menu-icon" ></i>
 
             <nav className="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Service</a>
-                <a href="#projects">Projects</a>
-                <a href="#contacts">Contacts</a>
+                <a href="/">Home</a>
+                <a href="/tech">Tech</a>
+                <a href="/about">About</a>
+                <a href="/projects">Projects</a>
+                <a href="/contacts">Contacts</a>
             </nav>
 
             <button className="gradient-btn"> Contact Me </button>
