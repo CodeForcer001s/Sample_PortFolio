@@ -10,7 +10,7 @@ const Home = () => {
         <h3>
           I'm an aspiring <span>Full-Stack Developer</span>
         </h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime quis voluptates optio molestias eligendi quo, amet, illo accusantium ab enim. Saepe suscipit magnam porro consequuntur consectetur, pariatur voluptatum. Voluptas similique dolores voluptatem esse.</p>
+        <p>I am working on my skills in full stack development and i am interested in building applications from the ground up. I intend to specialize in backend development however frontend development is also my area of interests. If required i can be flexible to work as a SRE as well. Working on my own Anime Website.</p>
 
         <div className="social-icons">
           <a href="#">
